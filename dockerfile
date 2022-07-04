@@ -1,7 +1,7 @@
 FROM node
 WORKDIR /app
 COPY package*.json ./
-COPY src /app
+COPY src /app/src
 RUN ls
 RUN npm install
 EXPOSE 3000
