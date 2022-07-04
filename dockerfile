@@ -1,6 +1,6 @@
 FROM node
 WORKDIR /app
-COPY ** ./
+COPY * ./
 RUN ls
 RUN npm install
 EXPOSE 3000
